@@ -18,7 +18,7 @@ import java.util.function.LongSupplier;
 import java.util.function.Supplier;
 
 /**
- * The single authenticated, TTL-cached scan of every release asset in the {@code intisy-ai}
+ * The single authenticated, TTL-cached scan of every release asset in the {@code forebay}
  * GitHub org, shared by {@link GithubOrgProviderSource} and {@link GithubOrgProxySource} so the
  * org is only ever scanned once for both kinds of installable jar.
  *
@@ -31,7 +31,7 @@ import java.util.function.Supplier;
 public final class GithubOrgScan {
 
     private static final String LOG_PREFIX = "[example-server] ";
-    private static final String ORG = "intisy-ai";
+    private static final String ORG = "forebay";
     private static final String REPOS_URL = "https://api.github.com/orgs/" + ORG + "/repos?per_page=100";
     private static final String USER_AGENT = "ai-java-example-server";
     private static final int TIMEOUT_MS = 5000;

@@ -24,10 +24,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class GithubOrgScanTest {
 
-    private static final String REPOS_URL = "https://api.github.com/orgs/intisy-ai/repos?per_page=100";
+    private static final String REPOS_URL = "https://api.github.com/orgs/forebay/repos?per_page=100";
 
     private static String releaseUrl(String repo) {
-        return "https://api.github.com/repos/intisy-ai/" + repo + "/releases/latest";
+        return "https://api.github.com/repos/forebay/" + repo + "/releases/latest";
     }
 
     private static String reposJson(String... repoNames) {

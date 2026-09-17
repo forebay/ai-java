@@ -65,7 +65,7 @@ ever scans disk — it never touches the network:
 ## On-demand install
 
 New providers don't require a restart. `GithubOrgProviderSource` (wired in `ServerMain`) lists
-provider-jar release assets published across the `intisy-ai` GitHub org; the install API downloads
+provider-jar release assets published across the `forebay` GitHub org; the install API downloads
 one on request and hot-swaps it into the live registry via `ProviderRegistryHolder.refresh`:
 
 - `GET /api/providers/available` — what's installable right now, each entry flagged `installed`

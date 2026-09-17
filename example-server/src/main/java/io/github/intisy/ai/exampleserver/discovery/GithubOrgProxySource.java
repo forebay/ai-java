@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Lists and downloads proxy-jar release assets from every repo in the {@code intisy-ai} GitHub
+ * Lists and downloads proxy-jar release assets from every repo in the {@code forebay} GitHub
  * org. Proxy-side mirror of {@link GithubOrgProviderSource}: delegates to the same shared {@link
  * GithubOrgScan}, filtering to {@code kind == "proxy"}, so the org is only ever scanned once for
  * both kinds of installable jar.

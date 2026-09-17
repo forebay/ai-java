@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Lists and downloads provider-jar release assets from every repo in the {@code intisy-ai} GitHub
+ * Lists and downloads provider-jar release assets from every repo in the {@code forebay} GitHub
  * org, so the example server can offer them for on-demand install without a manual jar drop.
  * Delegates the actual scanning/caching/auth to the shared {@link GithubOrgScan}, filtering to
  * {@code kind == "provider"}. {@link #list()} is entirely best-effort: every network/parse failure
